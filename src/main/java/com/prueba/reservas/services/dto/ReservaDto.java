@@ -12,4 +12,5 @@ public class ReservaDto {
     private String tipo_documento;
     private Integer comensales;
     private String observaciones;
+    private String fecha_reserva;
 }

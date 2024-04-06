@@ -4,6 +4,8 @@ import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
 
+import java.util.Date;
+
 @Builder
 @Data
 @NoArgsConstructor
@@ -18,4 +20,5 @@ public class ReservasDao {
     private String tipo_documento;
     private Integer comensales;
     private String observaciones;
+    private String fecha_reserva;
 }
