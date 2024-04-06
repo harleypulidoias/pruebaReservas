@@ -1,0 +1,10 @@
+FROM openjdk:17
+
+# Establece el directorio de trabajo en /app
+WORKDIR /app
+
+# Copia el archivo JAR compilado de tu aplicación al contenedor
+COPY target/my-application.jar /app
+
+# Comando para ejecutar la aplicación cuando se inicie el contenedor
+CMD ["java", "-jar", "my-application.jar"]

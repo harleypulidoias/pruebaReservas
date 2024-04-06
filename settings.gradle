@@ -1,1 +1,6 @@
 rootProject.name = 'reservas'
+include 'domain'
+include 'infraestructure'
+include 'r2dbc-repository'
+include 'usecase'
+
